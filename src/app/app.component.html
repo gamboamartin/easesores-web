@@ -44,6 +44,39 @@
 
   </div>
   <div class="div-front">
+    <h1 class="titulo-inicio">Encuentra tu próximo espacio</h1>
+    <h5 class="texto-inicio">Descubre casas, departamentos, locales, oficinas y terrenos para compra y renta</h5>
+
+    <div class="row div-form">
+      <div class="col-md-6">
+        <select class="select-inicio" aria-label="Selecciona cantidad">
+          <option selected>2,000,000</option>
+          <option value="1,000,000">1,000,000</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="range">Rango precio</label>
+        <input type="range" id="range" class="" min="0" max="10000000" value="0" oninput="this.nextElementSibling.value = this.value">
+        <output> </output>
+      </div>
+    </div>
+    <div class="row div-form">
+      <div class="col-md-6">
+        <select class="select-inicio">
+          <option value="Zapopan" selected>Zapopan</option>
+          <option value="Tlaquepaque">Tlaquepaque</option>
+          <option value="Tonalá">Tonalá</option>
+          <option value="Otro">Otro</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <input type="text" placeholder="Colonia" class="input-inicio">
+      </div>
+    </div>
+
+    <button type="submit" class="btn_buscar">BUSCAR</button>
+    <br><br>
+    <span >¿No encontraste lo que buscabas? <a href="#" style="color: #51c796; font-weight: bold;">¡Contactanos!</a> </span>
 
   </div>
 
