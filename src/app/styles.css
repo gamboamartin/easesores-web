@@ -143,23 +143,17 @@ svg.material-icons:not(:last-child) {
 .div-back{
   border-radius: 50px;
   background-color: #888888;
-  height: 80%;
-  width: 65%;
+  height: 500px;
+  width: 800px;
   alignment: right;
-  display: inline-block;
-  position: absolute; right: 5%; bottom: 7%;
-  z-index: 1;
 }
 
 .div-front{
-  border-radius: 50px;
-  background-color: #eeeeee;
-  height: 70%;
-  width: 35%;
-  alignment: left;
-  display: inline-block;
-  position: absolute; left: 5%; bottom: 13%;
-  z-index: 2;
+  border-radius: 5px;
+  background-color: #888888;
+  height: 500px;
+  width: 800px;
+  alignment: right;
 }
 
 .nav-item{
