@@ -85,7 +85,7 @@ svg.material-icons:not(:last-child) {
   margin-top: 15px;
   font-family: "Liberation Sans";
   font-weight: bold;
-  color: #33764c;
+  color: #006666;
   background-color: #cbd325;
 }
 
@@ -155,7 +155,9 @@ svg.material-icons:not(:last-child) {
 
 .div-back{
   border-radius: 50px;
-  background-color: #888888;
+  background-image: url("/assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 80%;
   width: 65%;
   alignment: right;
@@ -193,10 +195,19 @@ svg.material-icons:not(:last-child) {
   background-color: #ffffff;
 }
 
+input[type=range]::-moz-range-track {
+  background: #606060;
+}
+
+input[type=range]::-moz-range-thumb {
+  background: #cbd325;
+}
+
 .nav-item{
-  color: #55ab9b;
+  color: #009999 !important;
   margin: 15px;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: lighter;
   overflow: hidden;
   padding: 12px 15px;
   position: relative;
@@ -212,8 +223,13 @@ svg.material-icons:not(:last-child) {
   margin-top: 15px;
   font-family: "Liberation Sans";
   font-weight: bold;
-  color: #55ab9b;
+  color: #009999;
   background-color: #ffffff;
+}
+
+.span-link{
+  color: #006666 !important;
+  font-weight: bold;
 }
 
 .texto-inicio{
@@ -228,10 +244,10 @@ svg.material-icons:not(:last-child) {
 
 .titulo-inicio{
   color: #606060;
-  font-family: "Arial";
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
-  font-size: 35px;
-  font-weight: 1000;
+  font-size: 200%;
+  font-weight: bold;
   padding-left: 7%;
   padding-top: 7%;
 }

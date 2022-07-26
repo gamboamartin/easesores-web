@@ -13,35 +13,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <!-- Toolbar -->
-<div class="toolbar fixed-top" role="banner">
+<header class="toolbar fixed-top" role="banner">
   <img
-    width="40"
+    width="10%"
     alt="Angular Logo"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
+    src="../assets/VISTA.WEB.ESPACIO-04.svg"
   />
-  <!--<span>Welcome</span>
-    <div class="spacer"></div>-->
-  <div>
-    <span class="nav-item">Home</span>
-  </div>
-  <div>
-    <span class="nav-item">Compra</span>
-  </div>
-  <div>
-    <span class="nav-item">Vende</span>
-  </div>
-  <div>
-    <span class="nav-item">Remodela</span>
-  </div>
-  <div>
-    <span class="nav-item">Financiamiento</span>
-  </div>
+  <a class="nav-link nav-item" href="#" aria-expanded="false">
+    Home
+  </a>
+  <a class="nav-link nav-item" href="#" aria-expanded="false">
+    Compra
+  </a>
+  <a class="nav-link nav-item" href="#" aria-expanded="false">
+    Vende
+  </a>
+  <a class="nav-link nav-item" href="#" aria-expanded="false">
+    Remodela
+  </a>
+  <a class="nav-link nav-item" href="#" aria-expanded="false">
+    Financiamiento
+  </a>
 
-</div>
+</header>
 
 <div class="content w-100" style="text-align: center;" role="main">
   <div class="div-back">
-
+    <!--<img style='height: 100%; width: 100%; object-fit: contain; border-radius: 50px;' src="../assets/background.jpg"/>-->
   </div>
   <div class="div-front">
     <h1 class="titulo-inicio">Encuentra tu próximo espacio</h1>
@@ -49,34 +47,39 @@
 
     <div class="row div-form">
       <div class="col-md-6">
-        <select class="select-inicio" aria-label="Selecciona cantidad">
-          <option selected>2,000,000</option>
-          <option value="1,000,000">1,000,000</option>
-        </select>
+        <input type="text" required class="input-inicio" pattern="[1-9]{1}[0-9]" placeholder="$Precio Mínimo">
       </div>
       <div class="col-md-6">
-        <label for="range">Rango precio</label>
-        <input type="range" id="range" class="" min="0" max="10000000" value="0" oninput="this.nextElementSibling.value = this.value">
-        <output> </output>
+        <input type="text" required class="input-inicio" pattern="[1-9]{1}[0-9]" placeholder="$Precio Máximo">
+        <!--<label for="range">Rango precio</label><br>
+        <input type="range" id="range" class="" min="0" max="1000000" value="0" oninput="this.nextElementSibling.value = this.value">
+        <output> </output>-->
       </div>
     </div>
     <div class="row div-form">
       <div class="col-md-6">
-        <select class="select-inicio">
-          <option value="Zapopan" selected>Zapopan</option>
+        <select class="select-inicio" required>
+          <option selected="" disabled="" hidden="" value="-1">Municipio</option>
+          <option value="Zapopan">Zapopan</option>
           <option value="Tlaquepaque">Tlaquepaque</option>
           <option value="Tonalá">Tonalá</option>
           <option value="Otro">Otro</option>
         </select>
       </div>
       <div class="col-md-6">
-        <input type="text" placeholder="Colonia" class="input-inicio">
+        <select class="select-inicio" required>
+          <option selected="" disabled="" hidden="" value="-1">Colonia</option>
+          <option value="Colonia 1">Colonia 1</option>
+          <option value="Colonia 2">Colonia 2</option>
+          <option value="Colonia 3">Colonia 3</option>
+          <option value="Otro">Otra</option>
+        </select>
       </div>
     </div>
 
     <button type="submit" class="btn_buscar">BUSCAR</button>
     <br><br>
-    <span >¿No encontraste lo que buscabas? <a href="#" style="color: #51c796; font-weight: bold;">¡Contactanos!</a> </span>
+    <span >¿No encontraste lo que buscabas? <a href="#" class="span-link">¡Contactanos!</a> </span>
 
   </div>
 
