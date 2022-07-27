@@ -1,0 +1,47 @@
+<div class="content w-100" style="text-align: center;" role="main">
+  <div class="div-back">
+    <!--<img style='height: 100%; width: 100%; object-fit: contain; border-radius: 50px;' src="../assets/background.jpg"/>-->
+  </div>
+  <div class="div-front">
+    <h1 class="titulo-inicio">Encuentra tu próximo espacio</h1>
+    <h5 class="texto-inicio">Descubre casas, departamentos, locales, oficinas y terrenos para compra y renta</h5>
+
+    <div class="row div-form">
+      <div class="col-md-6">
+        <input type="text" required class="input-inicio" pattern="[1-9]{1}[0-9]" placeholder="$Precio Mínimo">
+      </div>
+      <div class="col-md-6">
+        <input type="text" required class="input-inicio" pattern="[1-9]{1}[0-9]" placeholder="$Precio Máximo">
+        <!--<label for="range">Rango precio</label><br>
+        <input type="range" id="range" class="" min="0" max="1000000" value="0" oninput="this.nextElementSibling.value = this.value">
+        <output> </output>-->
+      </div>
+    </div>
+    <div class="row div-form">
+      <div class="col-md-6">
+        <select class="select-inicio" required>
+          <option selected="" disabled="" hidden="" value="-1">Municipio</option>
+          <option value="Zapopan">Zapopan</option>
+          <option value="Tlaquepaque">Tlaquepaque</option>
+          <option value="Tonalá">Tonalá</option>
+          <option value="Otro">Otro</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <select class="select-inicio" required>
+          <option selected="" disabled="" hidden="" value="-1">Colonia</option>
+          <option value="Colonia 1">Colonia 1</option>
+          <option value="Colonia 2">Colonia 2</option>
+          <option value="Colonia 3">Colonia 3</option>
+          <option value="Otro">Otra</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="submit" class="btn_buscar">BUSCAR</button>
+    <br><br>
+    <span >¿No encontraste lo que buscabas? <a href="#" class="span-link">¡Contactanos!</a> </span>
+
+  </div>
+
+</div>

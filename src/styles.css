@@ -25,20 +25,6 @@ p {
   flex: 1;
 }
 
-.toolbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  background-color: white;
-  color: white;
-  font-weight: 600;
-  justify-content: center;
-}
-
 .toolbar img {
   margin: 0 16px;
 }
@@ -74,19 +60,6 @@ svg.material-icons {
 
 svg.material-icons:not(:last-child) {
   margin-right: 8px;
-}
-
-.btn_buscar{
-  border-radius: 50px;
-  border-top-color: black;
-  border-left-color: black;
-  padding: 10px 20px;
-  width: 45%;
-  margin-top: 15px;
-  font-family: "Liberation Sans";
-  font-weight: bold;
-  color: #006666;
-  background-color: #cbd325;
 }
 
 .card svg.material-icons path {
@@ -151,105 +124,6 @@ svg.material-icons:not(:last-child) {
 
 .card.card.highlight-card span {
   margin-left: 60px;
-}
-
-.div-back{
-  border-radius: 50px;
-  background-image: url("/assets/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80%;
-  width: 65%;
-  alignment: right;
-  display: inline-block;
-  position: absolute; right: 5%; bottom: 7%;
-  z-index: 1;
-}
-
-.div-form{
-  padding-left: 7%;
-  padding-right:7%;
-  padding-top: 2%;
-}
-
-.div-front{
-  border-radius: 50px;
-  background-color: white;
-  box-shadow: -4px 4px 5px #b7b7b7, 0px -4px 5px #b7b7b7;
-  height: 70%;
-  width: 35%;
-  alignment: left;
-  display: inline-block;
-  position: absolute; left: 5%; bottom: 13%;
-  z-index: 2;
-}
-
-.input-inicio{
-  border-bottom-color: black;
-  border-right-color: black;
-  border-radius: 50px;
-  border-width: 2px;
-  padding: 10px 20px;
-  width: 90%;
-  margin-top: 15px;
-  background-color: #ffffff;
-}
-
-input[type=range]::-moz-range-track {
-  background: #606060;
-}
-
-input[type=range]::-moz-range-thumb {
-  background: #cbd325;
-}
-
-.nav-item{
-  color: #009999 !important;
-  margin: 15px;
-  font-size: 25px;
-  font-weight: lighter;
-  overflow: hidden;
-  padding: 12px 15px;
-  position: relative;
-}
-
-.select-inicio{
-  border-bottom-color: black;
-  border-right-color: black;
-  border-radius: 50px;
-  border-width: 2px;
-  padding: 10px 20px;
-  width: 90%;
-  margin-top: 15px;
-  font-family: "Liberation Sans";
-  font-weight: bold;
-  color: #009999;
-  background-color: #ffffff;
-}
-
-.span-link{
-  color: #006666 !important;
-  font-weight: bold;
-}
-
-.texto-inicio{
-  color: #606060;
-  font-family: "Arial";
-  text-align: left;
-  font-size: 20px;
-  font-weight: 300;
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-.titulo-inicio{
-  color: #606060;
-  font-family: 'Open Sans', sans-serif;
-  text-align: left;
-  font-size: 200%;
-  font-weight: bold;
-  padding-left: 7%;
-  padding-top: 7%;
 }
 
 svg#rocket {
