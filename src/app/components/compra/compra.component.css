@@ -51,9 +51,26 @@
   margin-bottom: 4%;
 }
 
+.div1-b5{
+  background-color: #006666;
+  height: 200px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
 .div1-1-b3{
-//background-image: url("../../../assets/comf.jpg");
+/*background-image: url("../../../assets/comf.jpg");*/
   background-color: slategray;
+}
+
+.div1-1-b5{
+  display: inline-block;
+  height: 100%;
+  width: 200px;
 }
 
 .div1-2-b3{
@@ -130,6 +147,11 @@
 .img-b4{
   height: 50%;
   width: 50%;
+}
+
+.img-b5{
+  height: 100%;
+  width: 100%;
 }
 
 .link-b3{
