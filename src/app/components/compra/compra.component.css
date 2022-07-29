@@ -48,6 +48,7 @@
 .div1-b4{
   text-align: center;
   width: 100%;
+  margin-bottom: 4%;
 }
 
 .div1-1-b3{
@@ -67,7 +68,7 @@
 }
 
 .div2-b4{
-  background-color: #cccccc;
+  background-color: #dedfc4;
   height: 70%;
   width: 100%;
 }
@@ -161,6 +162,7 @@
   color: #606060;
   font-family: Arial;
   font-size: 120%;
+  line-height: 100%;
 }
 
 .p-venta-b3{
@@ -171,6 +173,16 @@
   padding-top: 8px;
   padding-left: 30px;
   width: 70%;
+}
+
+.span-carousel-b4{
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 170%;
+  line-height: 120%;
+  padding-bottom: 4%;
+  padding-top: 3%;
+  text-align: center;
 }
 
 .span-compra{
