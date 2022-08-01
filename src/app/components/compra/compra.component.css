@@ -1,0 +1,30 @@
+.search-box{
+  border: 8px solid darkgrey;
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  background-image: url("../../../assets/loupe.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 65px 65px;
+  height: 80%;
+  outline: none;
+  width: 60%;
+  margin-top: 25%;
+}
+
+.texto1{
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.titulo1{
+  color: #006666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 290%;
+  font-weight: bolder;
+  padding-top: 5%;
+  text-align: left;
+}
