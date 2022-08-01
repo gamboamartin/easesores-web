@@ -1,10 +1,10 @@
 .btn_buscar{
   border-radius: 50px;
-  border-top-color: black;
-  border-left-color: black;
+  border: 0px;
   padding: 10px 20px;
   width: 45%;
-  margin-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
   font-family: "Liberation Sans";
   font-weight: bold;
   color: #006666;
@@ -40,7 +40,7 @@
   width: 65%;
   alignment: right;
   display: inline-block;
-  position: absolute; right: 5%; top: 14%;
+  position: absolute; right: 5%; top: 18%;
   z-index: 1;
 }
 
@@ -58,7 +58,7 @@
   width: 35%;
   alignment: left;
   display: inline-block;
-  position: absolute; left: 5%; top: 18%;
+  position: absolute; left: 5%; top: 22%;
   z-index: 2;
 }
 
@@ -209,8 +209,8 @@
   border-right-color: black;
   border-radius: 50px;
   border-width: 2px;
-  padding: 10px 20px;
-  width: 90%;
+  padding: 10px 10px;
+  width: 100%;
   margin-top: 15px;
   background-color: #ffffff;
 }
@@ -313,7 +313,7 @@
   border-radius: 50px;
   border-width: 2px;
   padding: 10px 20px;
-  width: 90%;
+  width: 100%;
   margin-top: 15px;
   font-family: "Liberation Sans";
   font-weight: bold;
@@ -331,6 +331,15 @@
   text-align: center;
 }
 
+.span-b1{
+  color: #606060;
+  font-family: "Arial";
+  font-size: 100%;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .span-b2{
   color: #cbd325;
   font-weight: bold;
@@ -340,6 +349,7 @@
 
 .span-link{
   color: #006666 !important;
+  font-family: "Arial";
   font-weight: bold;
   text-decoration: none;
 }

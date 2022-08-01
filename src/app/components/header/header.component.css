@@ -1,12 +1,13 @@
 
 .nav-item{
   color: #009999 !important;
-  margin: 15px;
-  font-size: 25px;
-  font-weight: lighter;
+  margin: 15px 3px 3px;
+  font-size: 28px;
+  font-weight: 300;
   overflow: hidden;
   padding: 12px 15px;
   position: relative;
+  text-decoration: none;
 }
 
 .toolbar {
