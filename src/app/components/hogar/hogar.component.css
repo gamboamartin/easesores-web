@@ -4,7 +4,6 @@
   padding: 10px 20px;
   width: 45%;
   margin-top: 30px;
-  margin-bottom: 15px;
   font-family: "Liberation Sans";
   font-weight: bold;
   color: #006666;
@@ -51,6 +50,7 @@
 }
 
 .div-front{
+  align-items: center;
   border-radius: 50px;
   background-color: white;
   box-shadow: -4px 4px 5px #b7b7b7, 0px -4px 5px #b7b7b7;
@@ -332,12 +332,13 @@
 }
 
 .span-b1{
+  bottom: 7%;
   color: #606060;
   font-family: "Arial";
   font-size: 100%;
-  text-align: left;
-  padding-left: 5%;
-  padding-right: 5%;
+  left: 5%;
+  margin-left: 5%;
+  position: absolute;
 }
 
 .span-b2{
@@ -349,7 +350,6 @@
 
 .span-link{
   color: #006666 !important;
-  font-family: "Arial";
   font-weight: bold;
   text-decoration: none;
 }
