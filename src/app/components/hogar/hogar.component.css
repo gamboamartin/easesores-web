@@ -19,7 +19,7 @@
   font-family: "Liberation Sans";
   font-weight: bold;
   color: #006666;
-  margin-left: 7%;
+  margin-left: 8%;
   background-color: #cbd325;
 }
 
@@ -143,9 +143,8 @@
 }
 
 .div-back-b2{
-  border-radius: 50px;
   height: 90%;
-  width: 90%;
+  width: 100%;
   display: inline-block;
   position: absolute;
   z-index: 1;
@@ -153,7 +152,6 @@
 
 .div-front-b2{
   background-image: linear-gradient(to right, #006666 50%, transparent);
-  border-radius: 50px;
   height: 100%;
   text-align: left;
   width: 70%;
@@ -162,7 +160,6 @@
 }
 
 .div-middle-b2{
-  border-radius: 50px;
   background-image: url("../../../assets/comf.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -359,7 +356,7 @@
   font-family: "Arial";
   font-size: 20px;
   font-weight: 300;
-  padding-left: 7%;
+  padding-left: 8%;
   padding-right: 7%;
 }
 
@@ -395,7 +392,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 350%;
   font-weight: 1000;
-  padding-left: 7%;
+  padding-left: 8%;
   padding-top: 14%;
 }
 
