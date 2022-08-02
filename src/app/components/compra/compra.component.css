@@ -48,6 +48,24 @@
   width: 100%;
 }
 
+.nav-paginated{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.nav-component{
+  border: 0;
+  border-radius: 50px;
+  color: #006666;
+  font-size: 150%;
+  height: 40px;
+  margin-right: 40px;
+}
+
+.nav-active{
+  background-color: #cbd325;
+}
+
 .p-venta-b3{
   display: inline-block;
   font-size: 120%;
