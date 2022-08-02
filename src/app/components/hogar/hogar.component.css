@@ -202,10 +202,8 @@
 }
 
 .input-inicio{
-  border-bottom-color: black;
-  border-right-color: black;
+  border: 1px solid gray;
   border-radius: 50px;
-  border-width: 2px;
   padding: 10px 10px;
   width: 100%;
   margin-top: 15px;
@@ -306,15 +304,14 @@
 }
 
 .select-inicio{
-  border-color: black;
+  border: 1px solid gray;
   border-radius: 50px;
-  border-width: 2px;
   padding: 10px 20px;
   width: 100%;
   margin-top: 15px;
   font-family: "Liberation Sans";
   font-weight: bold;
-  color: #009999;
+  color: #888888;
   background-color: #ffffff;
 }
 
