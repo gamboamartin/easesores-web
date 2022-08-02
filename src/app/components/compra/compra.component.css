@@ -34,6 +34,14 @@
   grid-auto-rows: 350px;
 }
 
+.div2-b5{
+  padding-bottom: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  width: 100%;
+}
+
 .div-venta-b3{
   background-color: #cbd325;
   border-top-left-radius: 40px;
@@ -43,8 +51,54 @@
   width: 100%;
 }
 
+.footer-b4{
+  background-color: #dedfc4;
+  height: 40%;
+}
+
+.hr-footer-b5{
+  height: 2px;
+  background-color: #2c2c2c;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 100%;
+}
+
 .imagen{
   height: 100%;
+  width: 100%;
+}
+
+.input-footer{
+  border-color: #606060;
+  border-radius: 50px;
+  border-width: 2px;
+  padding: 10px 20px;
+  width: 60%;
+  background-color: #dedfc4;
+}
+
+.p1-footer-b5{
+  padding-top: 87px;
+}
+
+.p2-footer-b5{
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+.p3-footer-b5{
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+  padding-top: 87px;
+}
+
+.div3-b5 {
+  padding: 3% 5%;
+  text-align: left;
   width: 100%;
 }
 
