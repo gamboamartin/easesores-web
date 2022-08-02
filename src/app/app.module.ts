@@ -8,6 +8,7 @@ import { CompraComponent } from './components/compra/compra.component';
 import { HogarComponent } from './components/hogar/hogar.component';
 import { CasasComponent } from './components/casas/casas.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TiraImagenesComponent } from './components/tira-imagenes/tira-imagenes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     CompraComponent,
     HogarComponent,
     CasasComponent,
-    FooterComponent
+    FooterComponent,
+    TiraImagenesComponent
   ],
   imports: [
     BrowserModule,
