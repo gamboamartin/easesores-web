@@ -10,19 +10,6 @@
   background-color: #cbd325;
 }
 
-.btn_whatsapp{
-  border: 0px;
-  border-radius: 50px;
-  padding: 10px 20px;
-  width: 30%;
-  margin-top: 15px;
-  font-family: "Liberation Sans";
-  font-weight: bold;
-  color: #006666;
-  margin-left: 8%;
-  background-color: #cbd325;
-}
-
 .div-back{
   border-radius: 50px;
   background-image: url("../../../assets/background.jpg");
@@ -69,33 +56,6 @@
   background-color: #dedfc4;
   height: 70%;
   width: 100%;
-}
-
-.div-back-b2{
-  height: 90%;
-  width: 100%;
-  display: inline-block;
-  position: absolute;
-  z-index: 1;
-}
-
-.div-front-b2{
-  background-image: linear-gradient(to right, #006666 50%, transparent);
-  height: 100%;
-  text-align: left;
-  width: 70%;
-  position: absolute;
-  z-index: 3;
-}
-
-.div-middle-b2{
-  background-image: url("../../../assets/comf.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 82%;
-  position: absolute; right: 0;
-  z-index: 2;
 }
 
 .img-b4{
@@ -150,11 +110,6 @@
   padding-top: 10%;
 }
 
-.section-2{
-  text-align: center;
-  padding-top: 32%;
-}
-
 .section-3{
   text-align: left;
   padding-top: 48%;
@@ -196,26 +151,10 @@
   position: absolute;
 }
 
-.span-b2{
-  color: #cbd325;
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: none;
-}
-
 .span-link{
   color: #006666 !important;
   font-weight: bold;
   text-decoration: none;
-}
-
-.texto-b2{
-  color: white;
-  font-family: "Arial";
-  font-size: 20px;
-  font-weight: 300;
-  padding-left: 8%;
-  padding-right: 7%;
 }
 
 .texto-inicio{
@@ -243,15 +182,6 @@
   font-weight: bold;
   padding-left: 5%;
   padding-top: 5%;
-}
-
-.titulo-b2{
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 350%;
-  font-weight: 1000;
-  padding-left: 8%;
-  padding-top: 14%;
 }
 
 .titulo-inicio{

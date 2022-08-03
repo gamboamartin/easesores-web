@@ -9,6 +9,7 @@ import { HogarComponent } from './components/hogar/hogar.component';
 import { CasasComponent } from './components/casas/casas.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TiraImagenesComponent } from './components/tira-imagenes/tira-imagenes.component';
+import { Banner2HogarComponent } from './components/banner2-hogar/banner2-hogar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TiraImagenesComponent } from './components/tira-imagenes/tira-imagenes.
     HogarComponent,
     CasasComponent,
     FooterComponent,
-    TiraImagenesComponent
+    TiraImagenesComponent,
+    Banner2HogarComponent
   ],
   imports: [
     BrowserModule,
