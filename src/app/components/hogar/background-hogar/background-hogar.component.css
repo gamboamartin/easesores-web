@@ -1,0 +1,12 @@
+.div-back{
+  border-radius: 50px;
+  background-image: url("../../../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  width: 65%;
+  alignment: right;
+  display: inline-block;
+  position: absolute; right: 5%; top: 18%;
+  z-index: 1;
+}

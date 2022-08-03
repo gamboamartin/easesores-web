@@ -11,6 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { TiraImagenesComponent } from './components/hogar/tira-imagenes/tira-imagenes.component';
 import { Banner2HogarComponent } from './components/hogar/banner2-hogar/banner2-hogar.component';
 import { FormularioHogarComponent } from './components/hogar/formulario-hogar/formulario-hogar.component';
+import { BackgroundHogarComponent } from './components/hogar/background-hogar/background-hogar.component';
+import { Banner4HogarComponent } from './components/hogar/banner4-hogar/banner4-hogar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { FormularioHogarComponent } from './components/hogar/formulario-hogar/fo
     FooterComponent,
     TiraImagenesComponent,
     Banner2HogarComponent,
-    FormularioHogarComponent
+    FormularioHogarComponent,
+    BackgroundHogarComponent,
+    Banner4HogarComponent
   ],
   imports: [
     BrowserModule,
