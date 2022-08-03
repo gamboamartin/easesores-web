@@ -13,6 +13,7 @@ import { Banner2HogarComponent } from './components/hogar/banner2-hogar/banner2-
 import { FormularioHogarComponent } from './components/hogar/formulario-hogar/formulario-hogar.component';
 import { BackgroundHogarComponent } from './components/hogar/background-hogar/background-hogar.component';
 import { Banner4HogarComponent } from './components/hogar/banner4-hogar/banner4-hogar.component';
+import { PaginacionCompraComponent } from './components/compra/paginacion-compra/paginacion-compra.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { Banner4HogarComponent } from './components/hogar/banner4-hogar/banner4-
     Banner2HogarComponent,
     FormularioHogarComponent,
     BackgroundHogarComponent,
-    Banner4HogarComponent
+    Banner4HogarComponent,
+    PaginacionCompraComponent
   ],
   imports: [
     BrowserModule,
