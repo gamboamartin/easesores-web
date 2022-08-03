@@ -1,0 +1,87 @@
+.btn_buscar{
+  border-radius: 50px;
+  border: 0px;
+  padding: 10px 20px;
+  width: 45%;
+  margin-top: 30px;
+  font-family: "Liberation Sans";
+  font-weight: bold;
+  color: #006666;
+  background-color: #cbd325;
+}
+
+.div-form{
+  padding-left: 7%;
+  padding-right:7%;
+  padding-top: 2%;
+}
+
+.div-front{
+  align-items: center;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: -4px 4px 5px #b7b7b7, 0px -4px 5px #b7b7b7;
+  height: 70%;
+  width: 35%;
+  alignment: left;
+  display: inline-block;
+  position: absolute; left: 5%; top: 22%;
+  z-index: 2;
+}
+
+.input-inicio{
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 10px 10px;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #ffffff;
+}
+
+.select-inicio{
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 15px;
+  font-family: "Liberation Sans";
+  font-weight: bold;
+  color: #888888;
+  background-color: #ffffff;
+}
+
+.span-b1{
+  bottom: 7%;
+  color: #606060;
+  font-family: "Arial";
+  font-size: 100%;
+  left: 5%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+.span-link{
+  color: #006666 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.texto-inicio{
+  color: #606060;
+  font-family: "Arial";
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.titulo-inicio{
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 200%;
+  font-weight: bold;
+  padding-left: 7%;
+  padding-top: 7%;
+}
