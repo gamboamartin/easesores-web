@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+.flecha{
+  font-size: 170%;
+  color: #606060;
+}
+
 .img-b4{
   height: 50%;
   width: 50%;
@@ -56,4 +61,26 @@
   font-weight: bold;
   padding-left: 5%;
   padding-top: 5%;
+}
+
+@media only screen and (max-width : 1101px) {
+  .br-hidden{
+    display: none;
+  }
+  .flecha{
+    font-size: 120%;
+  }
+  .link-b4{
+    font-size: 120%;
+  }
+  .p-texto-b4{
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .titulo-b4{
+    font-size: 170%;
+  }
+  .span-carousel-b4{
+    font-size: 100%;
+  }
 }

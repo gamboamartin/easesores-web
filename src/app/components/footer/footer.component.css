@@ -34,6 +34,14 @@
   background-color: #dedfc4;
 }
 
+.link-footer{
+  color: #606060 !important;
+}
+
+.margin-top{
+  margin-top: 5%;
+}
+
 .p1-footer-b5{
   padding-top: 87px;
 }
@@ -50,4 +58,16 @@
   font-size: 110%;
   font-weight: bold;
   padding-top: 87px;
+}
+
+@media only screen and (max-width: 1101px){
+  .col-footer-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .col-footer-6 {
+    flex: 0 0 auto;
+    padding-bottom: 7%;
+    width: 50%;
+  }
 }

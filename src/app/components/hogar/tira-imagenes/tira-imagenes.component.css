@@ -33,6 +33,11 @@
   width: 200px;
 }
 
+.flecha{
+  font-size: 170%;
+  color: #606060;
+}
+
 .img-b5{
   height: 100%;
   width: 100%;
@@ -54,4 +59,16 @@
   font-weight: bold;
   padding-left: 5%;
   padding-top: 5%;
+}
+
+@media only screen and (max-width: 1101px) {
+  .flecha{
+    font-size: 120%;
+  }
+  .link-b4{
+    font-size: 120%;
+  }
+  .titulo-b4{
+    font-size: 170%;
+  }
 }

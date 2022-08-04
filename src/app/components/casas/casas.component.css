@@ -46,3 +46,14 @@
   padding-left: 30px;
   width: 70%;
 }
+
+@media only screen and (max-width: 1101px){
+  .div1-b3{
+    grid-auto-rows: 350px;
+    grid-template-columns: 1fr;
+  }
+
+  .div2-b3{
+    grid-template-columns: 1fr;
+  }
+}
