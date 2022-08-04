@@ -2,6 +2,11 @@
   padding-bottom: 2%;
 }
 
+.flecha{
+  font-size: 170%;
+  color: #606060;
+}
+
 .link-b3{
   color: #606060;
   font-family: 'Open Sans', sans-serif;
@@ -31,4 +36,19 @@
   font-size: 250%;
   font-weight: bold;
   padding-left: 5%;
+}
+
+@media only screen and (max-width: 1101px){
+  .flecha{
+    font-size: 120%;
+  }
+  .link-b3{
+    font-size: 120%;
+  }
+  .section-3{
+    margin-top: 46%;
+  }
+  .titulo-b3{
+    font-size: 170%;
+  }
 }

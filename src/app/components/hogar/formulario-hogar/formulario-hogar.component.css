@@ -85,3 +85,32 @@
   padding-left: 7%;
   padding-top: 7%;
 }
+
+@media only screen and (max-width: 1101px){
+  .btn_buscar{
+    padding: 10px 10px;
+    width: 45%;
+    margin-top: 30px;
+  }
+  .div-front{
+    box-shadow: -4px 4px 5px #b7b7b7, 4px -4px 5px #b7b7b7;
+    height: auto;
+    margin-top: 25%;
+    width: 94%;
+    position: relative; left: 0;
+    z-index: 1;
+  }
+  .span-b1{
+    display: inline-block;
+    margin-bottom: 7%;
+    margin-left: 0;
+    padding-top: 5%;
+    position: unset;
+  }
+  .texto-inicio{
+    font-size: 100%;
+  }
+  .titulo-inicio{
+    font-size: 150%;
+  }
+}

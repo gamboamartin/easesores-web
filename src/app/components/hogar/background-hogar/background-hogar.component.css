@@ -10,3 +10,9 @@
   position: absolute; right: 5%; top: 18%;
   z-index: 1;
 }
+
+@media only screen and (max-width: 1101px){
+  .div-back{
+    display: none;
+  }
+}
