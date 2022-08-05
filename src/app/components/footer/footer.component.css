@@ -4,7 +4,6 @@
 }
 
 .div2-b5{
-  padding-bottom: 7%;
   padding-left: 5%;
   padding-right: 5%;
   text-align: left;
@@ -22,6 +21,7 @@
   background-color: #2c2c2c;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 7%;
   opacity: 100%;
 }
 
@@ -42,10 +42,6 @@
   margin-top: 5%;
 }
 
-.p1-footer-b5{
-  padding-top: 87px;
-}
-
 .p2-footer-b5{
   color: #606060;
   font-family: 'Open Sans', sans-serif;
@@ -57,12 +53,12 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 110%;
   font-weight: bold;
-  padding-top: 87px;
 }
 
 @media only screen and (max-width: 1101px){
   .col-footer-12 {
     flex: 0 0 auto;
+    padding-top: 7%;
     width: 100%;
   }
   .col-footer-6 {
