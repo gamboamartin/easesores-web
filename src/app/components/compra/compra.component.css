@@ -94,3 +94,39 @@
 .titulo3{
   color: #006666;
 }
+
+@media only screen and (max-width: 1101px) {
+  .br-hidden{
+    display: none;
+  }
+  .btn_whatsapp{
+    font-size: 70%;
+    padding: 10px 10px;
+    margin-top: 0;
+    width: 30%;
+  }
+  .search-box{
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    margin-top: 35%;
+  }
+  .texto1{
+    font-size: 90%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .texto-genearl{
+    font-size: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .titulo1{
+    font-size: 150%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .titulo-general{
+    font-size: 150%;
+  }
+}

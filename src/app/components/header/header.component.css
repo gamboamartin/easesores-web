@@ -2,7 +2,7 @@
 .nav-item{
   color: #009999 !important;
   margin: 30px 3px 3px;
-  font-size: 25px;
+  font-size: 150%;
   font-weight: 300;
   overflow: hidden;
   padding: 12px 15px;
@@ -22,4 +22,20 @@
   color: white;
   font-weight: 600;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1101px) {
+  .img-header{
+    display: none;
+  }
+  .toolbar{
+    flex-basis: 100%;
+    justify-content: space-between;
+    height: auto;
+  }
+  .nav-item{
+    font-size: 100%;
+    margin: unset;
+    padding: 12px 5px;
+  }
 }
