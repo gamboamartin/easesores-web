@@ -70,8 +70,8 @@
 
 @media only screen and (max-width: 1101px){
   .btn_whatsapp{
-    font-size: 50%;
-    padding: 5px 5px;
+    font-size: 70%;
+    padding: 10px 10px;
     margin-top: 0;
   }
   .div-back-b2{
@@ -87,9 +87,9 @@
     padding-top: 2%;
   }
   .texto-b2{
-    font-size: 55%;
+    font-size: 75%;
   }
   .titulo-b2{
-    font-size: 120%;
+    font-size: 140%;
   }
 }
