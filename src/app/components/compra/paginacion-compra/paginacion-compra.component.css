@@ -15,3 +15,18 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
+
+@media only screen and (max-width: 1101px){
+  .component-hidden{
+    display: none;
+  }
+  .nav-component{
+    font-size: 150%;
+    height: 40px;
+    margin-right: 5px;
+  }
+  .nav-paginated{
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
