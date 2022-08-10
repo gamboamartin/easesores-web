@@ -63,6 +63,12 @@
 }
 
 @media only screen and (max-width: 1101px) {
+  .div1-b5{
+    height: 200px;
+  }
+  .div1-1-b5{
+    width: 45%;
+  }
   .flecha{
     font-size: 120%;
   }
