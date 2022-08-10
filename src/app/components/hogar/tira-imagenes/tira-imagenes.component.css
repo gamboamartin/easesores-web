@@ -1,5 +1,5 @@
 .div1-b5{
-  height: 200px;
+  height: 350px;
   margin-bottom: 3%;
   margin-top: 3%;
   overflow-x: scroll;
@@ -30,7 +30,7 @@
 .div1-1-b5{
   display: inline-block;
   height: 100%;
-  width: 200px;
+  width: 25%;
 }
 
 .flecha{
