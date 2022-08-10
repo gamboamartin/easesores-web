@@ -35,7 +35,9 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 250%;
   font-weight: bold;
+  line-height: 0;
   padding-left: 5%;
+  padding-top: 4%;
 }
 
 @media only screen and (max-width: 1101px){
@@ -50,5 +52,6 @@
   }
   .titulo-b3{
     font-size: 170%;
+    line-height: normal;
   }
 }
