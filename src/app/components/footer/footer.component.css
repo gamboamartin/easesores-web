@@ -39,7 +39,7 @@
   border-radius: 50px;
   border-width: 2px;
   padding: 10px 20px;
-  width: 60%;
+  width: 70%;
   background-color: #dedfc4;
 }
 
@@ -58,6 +58,7 @@
 .p2-footer-b5{
   color: #606060;
   font-family: 'Open Sans', sans-serif;
+  line-height: 2;
 }
 
 .p3-footer-b5{
