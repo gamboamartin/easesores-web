@@ -25,6 +25,11 @@
   opacity: 100%;
 }
 
+.img-footer{
+  height: 100px;
+  width: 100px;
+}
+
 .input-footer{
   border-color: #606060;
   border-radius: 50px;
@@ -65,9 +70,5 @@
     flex: 0 0 auto;
     padding-bottom: 7%;
     width: 50%;
-  }
-  .img-footer{
-    height: 87px;
-    width: 90px;
   }
 }
