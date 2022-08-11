@@ -3,6 +3,7 @@
   border: 0px;
   padding: 10px 20px;
   width: 45%;
+  height: 42%;
   margin-top: 30px;
   font-family: "Liberation Sans";
   font-weight: bold;
@@ -14,6 +15,12 @@
   padding-left: 7%;
   padding-right:7%;
   padding-top: 2%;
+  height: fit-content;
+}
+
+.div-form-1{
+  height: 50%;
+  padding: 0 3%;
 }
 
 .div-front{
@@ -34,6 +41,7 @@
   border-radius: 50px;
   padding: 10px 10px;
   width: 100%;
+  height: 85%;
   margin-top: 15px;
   background-color: #ffffff;
 }
@@ -41,8 +49,9 @@
 .select-inicio{
   border: 1px solid gray;
   border-radius: 50px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   width: 100%;
+  height: 85%;
   margin-top: 15px;
   font-family: "Liberation Sans";
   font-weight: bold;
@@ -55,9 +64,9 @@
   color: #606060;
   font-family: "Arial";
   font-size: 100%;
-  left: 5%;
+  /*left: 5%;
   margin-left: 5%;
-  position: absolute;
+  position: absolute;*/
 }
 
 .span-link{
@@ -88,6 +97,7 @@
 
 @media only screen and (max-width: 1101px){
   .btn_buscar{
+    height: unset;
     padding: 10px 10px;
     width: 45%;
     margin-top: 30px;
