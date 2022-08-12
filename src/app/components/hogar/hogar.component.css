@@ -47,6 +47,9 @@
   .link-b3{
     font-size: 120%;
   }
+  .section-1{
+    padding: unset;
+  }
   .section-3{
     margin-top: 60%;
   }

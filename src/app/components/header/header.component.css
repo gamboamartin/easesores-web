@@ -39,9 +39,15 @@
     justify-content: space-between;
     height: auto;
   }
+  .img-header{
+    display: none;
+  }
   .item-style{
     font-size: 100%;
     margin: unset;
     padding: 12px 5px;
+  }
+  .nav{
+    margin: unset;
   }
 }
