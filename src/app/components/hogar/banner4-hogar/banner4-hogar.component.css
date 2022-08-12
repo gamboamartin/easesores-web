@@ -67,9 +67,6 @@
 }
 
 @media only screen and (max-width : 1101px) {
-  .br-hidden{
-    display: none;
-  }
   .flecha{
     font-size: 120%;
   }

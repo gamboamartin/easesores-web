@@ -99,9 +99,6 @@
 }
 
 @media only screen and (max-width: 1101px) {
-  .br-hidden{
-    display: none;
-  }
   .btn_whatsapp{
     font-size: 70%;
     padding: 10px 10px;
