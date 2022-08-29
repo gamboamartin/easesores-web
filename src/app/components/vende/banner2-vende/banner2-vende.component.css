@@ -10,7 +10,7 @@
 }
 
 .div1{
-  margin-top: 67%;
+  margin-top: -1%;
   background-color: #006666;
   padding-bottom: 3%;
   text-align: center;
@@ -18,22 +18,28 @@
 
 .div2{
   margin-top: 15%;
-  margin-bottom: 2%;
-  text-align: center;
   height: 28vh;
 }
 
 .div2-yellow{
   background-color: #cbd325;
-  border-radius: 30px;
+  border-radius: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   margin: 0 auto;
   width: 80%;
-  font-size: 160%;
+  font-size: 165%;
   line-height: 1.2;
+}
+
+.margin-left{
+  margin-left: 16%;
+}
+
+.margin-right{
+  margin-right: 16%;
 }
 
 .texto1{
@@ -63,13 +69,14 @@
     width: 30%;
   }
   .div1{
-    margin-top: 69%;
+    margin-top: -3%;
   }
   .div2{
     margin-bottom: 2%;
     height: 10vh;
   }
   .div2-yellow{
+    border-radius: 20px;
     width: 90%;
     font-size: 70%;
     line-height: 1.2;

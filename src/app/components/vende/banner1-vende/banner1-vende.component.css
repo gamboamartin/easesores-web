@@ -5,17 +5,17 @@
 .div2{
   margin-top: 2%;
   height: 123%;
-  position: absolute;
   overflow: hidden;
 }
 
 .div2-background{
-  background-image: url("../../../../assets/background_vende.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.img-vende{
   height: 100%;
   width: 100%;
-  position: relative;
 }
 
 .texto1{
