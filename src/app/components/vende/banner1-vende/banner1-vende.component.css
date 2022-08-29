@@ -1,0 +1,56 @@
+.div-background{
+  background-image: url("../../../../assets/background_vende.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.div1{
+  margin-top: 3%;
+}
+
+.div2{
+  margin-top: 2%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.texto1{
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  padding-left: 7%;
+}
+
+.titulo1{
+  color: #006666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 270%;
+  font-weight: bolder;
+  padding-left: 7%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1101px){
+  .div-background{
+    height: 100%;
+  }
+  .div2{
+    height: 37%;
+  }
+  .texto1{
+    font-size: 90%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .titulo1{
+    font-size: 150%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+}

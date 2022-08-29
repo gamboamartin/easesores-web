@@ -14,6 +14,11 @@ import { FormularioHogarComponent } from './components/hogar/formulario-hogar/fo
 import { BackgroundHogarComponent } from './components/hogar/background-hogar/background-hogar.component';
 import { Banner4HogarComponent } from './components/hogar/banner4-hogar/banner4-hogar.component';
 import { PaginacionCompraComponent } from './components/compra/paginacion-compra/paginacion-compra.component';
+import { VendeComponent } from './components/vende/vende.component';
+import { Banner1VendeComponent } from './components/vende/banner1-vende/banner1-vende.component';
+import { Banner2VendeComponent } from './components/vende/banner2-vende/banner2-vende.component';
+import { Banner3VendeComponent } from './components/vende/banner3-vende/banner3-vende.component';
+import { Banner4VendeComponent } from './components/vende/banner4-vende/banner4-vende.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { PaginacionCompraComponent } from './components/compra/paginacion-compra
     FormularioHogarComponent,
     BackgroundHogarComponent,
     Banner4HogarComponent,
-    PaginacionCompraComponent
+    PaginacionCompraComponent,
+    VendeComponent,
+    Banner1VendeComponent,
+    Banner2VendeComponent,
+    Banner3VendeComponent,
+    Banner4VendeComponent
   ],
   imports: [
     BrowserModule,
