@@ -1,6 +1,8 @@
 .div1{
   text-align: center;
   background-color: #FFFFFF;
+  overflow: hidden;
+  padding-bottom: 2%;
 }
 
 .div2-row{
@@ -41,4 +43,25 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 250%;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1101px) {
+  .btn_whatsapp {
+    font-size: 70%;
+    padding: 10px 10px;
+    margin-top: 0;
+    width: 30%;
+  }
+  .div2-col{
+    height: 12vh;
+  }
+  .texto1{
+    font-size: 90%;
+  }
+  .texto2{
+    font-size: 112%;
+  }
+  .titulo1{
+    font-size: 150%;
+  }
 }

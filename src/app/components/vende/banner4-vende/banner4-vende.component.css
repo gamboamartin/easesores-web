@@ -1,0 +1,107 @@
+.btn_whatsapp{
+  border: 0px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 20%;
+  font-family: "Liberation Sans";
+  font-weight: bold;
+  color: #006666;
+  background-color: white;
+}
+
+.div1{
+  background-color: #006666;
+  overflow: hidden;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.div2{
+  height: 28vh;
+  margin-bottom: 3%;
+}
+
+.div2-num{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 720%;
+  font-weight: bold;
+}
+
+.div2-yellow{
+  background-color: #cbd325;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 200%;
+  line-height: 1.2;
+}
+
+.margin-left{
+  margin-left: 16%;
+}
+
+.margin-right{
+  margin-right: 16%;
+}
+
+.texto1{
+  color: white;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 180%;
+  line-height: 1.2;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.titulo1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 350%;
+  font-weight: bolder;
+  color: white;
+  padding-top: 5%;
+  line-height: 0.2;
+}
+
+@media only screen and (max-width: 1101px) {
+  .btn_whatsapp {
+    font-size: 70%;
+    padding: 10px 10px;
+    margin-top: 0;
+    width: 30%;
+  }
+  .div1{
+    margin-top: -3%;
+  }
+  .div2{
+    height: 10vh;
+  }
+  .div2-num{
+    font-size: 250%;
+    font-weight: bold;
+  }
+  .div2-yellow{
+    border-radius: 20px;
+    width: 90%;
+    font-size: 70%;
+    line-height: 1.2;
+    margin: 0 auto;
+  }
+  .margin-left{
+    margin-left: 16%;
+  }
+  .margin-right{
+    margin-right: 16%;
+  }
+  .texto1{
+    font-size: 90%;
+  }
+  .titulo1{
+    font-size: 150%;
+  }
+}
