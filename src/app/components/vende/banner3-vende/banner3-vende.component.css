@@ -1,0 +1,44 @@
+.div1{
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.div2-row{
+  align-items: center;
+  text-align: left;
+  margin-top: 5vh;
+}
+
+.div2-col{
+  height: 22vh;
+}
+
+.img-b3{
+  display: inline;
+  height: 100%;
+  object-fit: contain;
+}
+
+.titulo1{
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 350%;
+  font-weight: bold;
+  margin-top: 5%;
+  line-height: 1.5;
+}
+
+.texto1{
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 200%;
+  line-height: 1.2;
+}
+
+.texto2{
+  color: #606060;
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 250%;
+  font-weight: bold;
+}
