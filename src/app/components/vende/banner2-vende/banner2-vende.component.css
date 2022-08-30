@@ -12,13 +12,21 @@
 .div1{
   margin-top: -1%;
   background-color: #006666;
+  overflow: hidden;
   padding-bottom: 3%;
   text-align: center;
 }
 
 .div2{
-  margin-top: 15%;
+  margin-bottom: 20vh;
   height: 28vh;
+}
+
+.div2-num{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 720%;
+  font-weight: bold;
 }
 
 .div2-yellow{
@@ -28,9 +36,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin: 0 auto;
+  margin: -9vh auto 0;
   width: 80%;
-  font-size: 165%;
+  font-size: 200%;
   line-height: 1.2;
 }
 
@@ -48,7 +56,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 180%;
   line-height: 1.2;
-  margin-top: 2%;
+  margin-top: 3%;
   margin-bottom: 2%;
 }
 
@@ -72,14 +80,25 @@
     margin-top: -3%;
   }
   .div2{
-    margin-bottom: 2%;
+    margin-bottom: 18%;
     height: 10vh;
+  }
+  .div2-num{
+    font-size: 250%;
+    font-weight: bold;
   }
   .div2-yellow{
     border-radius: 20px;
     width: 90%;
     font-size: 70%;
     line-height: 1.2;
+    margin: -3vh auto 0;
+  }
+  .margin-left{
+    margin-left: 16%;
+  }
+  .margin-right{
+    margin-right: 16%;
   }
   .texto1{
     font-size: 90%;
