@@ -43,7 +43,7 @@
 
 .p-venta-b3{
   display: inline-block;
-  font-size: 120%;
+  font-size: 2.8vh;
   font-style: italic;
   font-weight: bold;
   padding-top: 8px;
@@ -52,7 +52,7 @@
 }
 
 .texto-valoracion{
-  font-size: 60%;
+  font-size: 1.4vh;
   color: black;
   font-weight: bold;
   font-style: italic;
