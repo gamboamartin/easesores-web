@@ -24,7 +24,7 @@
 .titulo1{
   color: #606060;
   font-family: 'Open Sans', sans-serif;
-  font-size: 350%;
+  font-size: 8vh;
   font-weight: bold;
   margin-top: 5%;
   line-height: 1.5;
@@ -33,7 +33,7 @@
 .texto1{
   color: #606060;
   font-family: 'Open Sans', sans-serif;
-  font-size: 200%;
+  font-size: 4vh;
   line-height: 1.2;
 }
 
