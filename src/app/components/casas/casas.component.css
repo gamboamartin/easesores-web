@@ -72,4 +72,10 @@
   .right2{
     right: unset;
   }
+  .p-venta-b3{
+    font-size: 2.4vh;
+  }
+  .texto-valoracion{
+    font-size: 1.1vh;
+  }
 }
