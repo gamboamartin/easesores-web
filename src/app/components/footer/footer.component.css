@@ -79,7 +79,19 @@
   }
   .col-footer-6 {
     flex: 0 0 auto;
-    padding-bottom: 7%;
     width: 50%;
+  }
+  .font-70{
+    font-size: 1.2vh;
+  }
+  .img-footer{
+    height: 10.5vh;
+    width: 10.5vh;
+  }
+  .p2-footer-b5{
+    font-size: 1.8vh;
+  }
+  .p3-footer-b5{
+    font-size: 1.9vh;
   }
 }
