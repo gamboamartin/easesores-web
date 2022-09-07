@@ -46,7 +46,7 @@
 .link-b4{
   color: #606060;
   font-family: 'Open Sans', sans-serif;
-  font-size: 170%;
+  font-size: 4vh;
   font-weight: 100;
   padding-left: 5%;
   text-decoration: none;
@@ -55,7 +55,7 @@
 .titulo-b4{
   color: #606060;
   font-family: 'Open Sans', sans-serif;
-  font-size: 230%;
+  font-size: 5.5vh;
   font-weight: bold;
   line-height: 0;
   padding-left: 5%;
