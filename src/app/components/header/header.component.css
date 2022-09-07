@@ -1,12 +1,16 @@
-.img-header{
-  height: 70%;
-  width: 70%;
+.activo{
+  color: #FF6633 !important;
 }
 
 .a-img{
   box-sizing: content-box;
   display: inline-block;
   padding-left: 4%;
+}
+
+.img-header{
+  height: 70%;
+  width: 70%;
 }
 
 .item-style{

@@ -46,6 +46,10 @@
   background-color: #dedfc4;
 }
 
+.input-footer:focus{
+  outline-color: #FF6633;
+}
+
 .link-footer{
   color: #606060 !important;
 }
