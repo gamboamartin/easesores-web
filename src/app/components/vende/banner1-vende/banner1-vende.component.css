@@ -21,7 +21,7 @@
 .texto1{
   color: #606060;
   font-family: 'Open Sans', sans-serif;
-  font-size: 4vh;
+  font-size: 4.8vh;
   font-weight: bold;
   padding-left: 7%;
 }
@@ -30,7 +30,7 @@
   color: #006666;
   font-family: 'Open Sans', sans-serif;
   font-size: 8vh;
-  font-weight: bolder;
+  font-weight: bold;
   padding-left: 7%;
   text-align: left;
 }
