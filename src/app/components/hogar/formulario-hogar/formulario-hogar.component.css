@@ -6,6 +6,7 @@
   height: 42%;
   margin-top: 30px;
   font-family: "Liberation Sans";
+  font-size: 2.5vh;
   font-weight: bold;
   color: #006666;
   background-color: #cbd325;
@@ -41,7 +42,7 @@
   border-radius: 50px;
   padding: 10px 10px;
   width: 100%;
-  height: 85%;
+  height: 6.4vh;
   margin-top: 15px;
   background-color: #ffffff;
 }
@@ -55,7 +56,7 @@
   border-radius: 50px;
   padding: 10px 10px;
   width: 100%;
-  height: 85%;
+  height: 6.4vh;
   margin-top: 15px;
   font-family: "Liberation Sans";
   font-weight: bold;
@@ -71,10 +72,7 @@
   bottom: 7%;
   color: #606060;
   font-family: "Arial";
-  font-size: 100%;
-  /*left: 5%;
-  margin-left: 5%;
-  position: absolute;*/
+  font-size: 2.4vh;
 }
 
 .span-link{
