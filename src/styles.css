@@ -29,8 +29,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat-Italic";
-  src: url('./assets/fonts/Montserrat/Montserrat-Italic.ttf');
+  font-family: "Montserrat-BoldItalic";
+  src: url('./assets/fonts/Montserrat/Montserrat-BoldItalic.ttf');
 }
 
 @font-face {
@@ -69,8 +69,8 @@
   font-family: Montserrat-Bold;
 }
 
-.Montserrat-Italic{
-  font-family: Montserrat-Italic;
+.Montserrat-BoldItalic{
+  font-family: Montserrat-BoldItalic;
 }
 
 .Montserrat-Light{
@@ -100,6 +100,26 @@ h6 {
 
 p {
   margin: 0;
+}
+
+.flecha{
+  font-size: 5vh;
+  color: #606060;
+}
+
+.link{
+  color: #606060;
+  font-size: 4.2vh;
+  padding-left: 5%;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.titulo{
+  color: #606060;
+  font-size: 6vh;
+  padding-left: 5%;
+  padding-top: 4%;
 }
 
 .spacer {
@@ -332,6 +352,17 @@ svg#clouds {
 }
 
 /* Responsive Styles */
+@media only screen and (max-width: 1101px) {
+  .flecha {
+    font-size: 120%;
+  }
+  .link {
+    font-size: 120%;
+  }
+  .titulo{
+    font-size: 140%;
+  }
+}
 @media screen and (max-width: 767px) {
   .card-container > *:not(.circle-link) ,
   .terminal {

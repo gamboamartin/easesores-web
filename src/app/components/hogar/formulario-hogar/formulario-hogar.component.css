@@ -5,9 +5,7 @@
   width: 45%;
   height: 42%;
   margin-top: 30px;
-  font-family: "Liberation Sans";
   font-size: 2.5vh;
-  font-weight: bold;
   color: #006666;
   background-color: #cbd325;
 }
@@ -58,8 +56,6 @@
   width: 100%;
   height: 6.4vh;
   margin-top: 15px;
-  font-family: "Liberation Sans";
-  font-weight: bold;
   color: #888888;
   background-color: #ffffff;
 }
@@ -71,32 +67,26 @@
 .span-b1{
   bottom: 7%;
   color: #606060;
-  font-family: "Arial";
-  font-size: 2.4vh;
+  font-size: 2.3vh;
 }
 
 .span-link{
   color: #006666 !important;
-  font-weight: bold;
   text-decoration: none;
 }
 
 .texto-inicio{
   color: #606060;
-  font-family: "Arial";
   text-align: left;
-  font-size: 2.9vh;
-  font-weight: 300;
+  font-size: 2.5vh;
   padding-left: 7%;
   padding-right: 7%;
 }
 
 .titulo-inicio{
   color: #606060;
-  font-family: 'Open Sans', sans-serif;
   text-align: left;
   font-size: 4.8vh;
-  font-weight: bold;
   padding-left: 7%;
   padding-top: 7%;
 }
@@ -105,8 +95,7 @@
   .btn_buscar{
     height: unset;
     padding: 10px 10px;
-    width: 45%;
-    margin-top: 30px;
+    font-size: 90%;
   }
   .div-front{
     box-shadow: -4px 4px 5px #b7b7b7, 4px -4px 5px #b7b7b7;
@@ -122,11 +111,12 @@
     margin-left: 0;
     padding-top: 5%;
     position: unset;
+    font-size: 1.6vh;
   }
   .texto-inicio{
-    font-size: 100%;
+    font-size: 1.8vh;
   }
   .titulo-inicio{
-    font-size: 150%;
+    font-size: 3.6vh;
   }
 }

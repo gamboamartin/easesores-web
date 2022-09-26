@@ -3,8 +3,6 @@
   border-radius: 50px;
   padding: 2vh 20px;
   width: 30%;
-  font-family: "Liberation Sans";
-  font-weight: bold;
   font-size: 3vh;
   color: #006666;
   margin-left: 8%;
@@ -45,25 +43,19 @@
 
 .span-b2{
   color: #cbd325;
-  font-weight: bold;
-  font-style: italic;
   text-decoration: none;
 }
 
 .texto-b2{
   color: white;
-  font-family: "Arial";
   font-size: 3.5vh;
-  font-weight: 300;
   padding-left: 8%;
   padding-right: 7%;
 }
 
 .titulo-b2{
   color: white;
-  font-family: 'Open Sans', sans-serif;
   font-size: 9.4vh;
-  font-weight: 1000;
   padding-left: 8%;
   padding-top: 14%;
 }
@@ -75,7 +67,7 @@
     margin-top: 0;
   }
   .div-back-b2{
-    height: 60%;
+    height: 50%;
   }
   .div-front-b2{
     width: 90%;
@@ -87,9 +79,9 @@
     padding-top: 2%;
   }
   .texto-b2{
-    font-size: 75%;
+    font-size: 90%;
   }
   .titulo-b2{
-    font-size: 140%;
+    font-size: 180%;
   }
 }

@@ -33,33 +33,9 @@
   width: 25%;
 }
 
-.flecha{
-  font-size: 170%;
-  color: #606060;
-}
-
 .img-b5{
   height: 100%;
   width: 100%;
-}
-
-.link-b4{
-  color: #606060;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 4vh;
-  font-weight: 100;
-  padding-left: 5%;
-  text-decoration: none;
-}
-
-.titulo-b4{
-  color: #606060;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 5.5vh;
-  font-weight: bold;
-  line-height: 0;
-  padding-left: 5%;
-  padding-top: 5%;
 }
 
 @media only screen and (max-width: 1101px) {
@@ -68,14 +44,5 @@
   }
   .div1-1-b5{
     width: 45%;
-  }
-  .flecha{
-    font-size: 120%;
-  }
-  .link-b4{
-    font-size: 120%;
-  }
-  .titulo-b4{
-    font-size: 170%;
   }
 }
