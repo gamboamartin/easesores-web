@@ -3,8 +3,7 @@
   border-radius: 50px;
   padding: 2vh 20px;
   width: 26%;
-  font-family: "Liberation Sans";
-  font-weight: bold;
+  font-family: Montserrat-Bold;
   font-size: 3vh;
   color: #006666;
   background-color: #cbd325;
@@ -25,9 +24,7 @@
 
 .div2-num{
   color: white;
-  font-family: "Open Sans", sans-serif;
   font-size: 720%;
-  font-weight: bold;
 }
 
 .div2-yellow{
@@ -54,7 +51,6 @@
 .texto1{
   color: white;
   display: block;
-  font-family: 'Open Sans', sans-serif;
   font-size: 4vh;
   line-height: 1.2;
   margin-top: 3%;
@@ -62,9 +58,7 @@
 }
 
 .titulo1{
-  font-family: 'Open Sans', sans-serif;
   font-size: 8vh;
-  font-weight: bolder;
   color: white;
   padding-top: 5%;
   line-height: 0.2;
@@ -102,9 +96,10 @@
     margin-right: 16%;
   }
   .texto1{
-    font-size: 90%;
+    font-size: 80%;
   }
   .titulo1{
     font-size: 150%;
+    line-height: normal;
   }
 }
