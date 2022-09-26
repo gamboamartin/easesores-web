@@ -3,8 +3,7 @@
   border-radius: 50px;
   padding: 1.4vh 20px;
   width: 20%;
-  font-family: "Liberation Sans";
-  font-weight: bold;
+  font-family: Montserrat-Bold;
   font-size: 3vh;
   color: #006666;
   background-color: #cbd325;
@@ -23,7 +22,7 @@
 .search-box{
   border: 8px solid darkgrey;
   border-radius: 50px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Montserrat;
   background-image: url("../../../assets/loupe.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -54,15 +53,12 @@
 
 .texto1{
   color: #606060;
-  font-family: 'Open Sans', sans-serif;
   font-size: 4.8vh;
-  font-weight: bold;
   padding-left: 10%;
 }
 
-.texto-genearl{
+.texto-general{
   display: block;
-  font-family: 'Open Sans', sans-serif;
   font-size: 4.8vh;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -77,16 +73,12 @@
 }
 
 .titulo-general{
-  font-family: 'Open Sans', sans-serif;
   font-size: 8.4vh;
-  font-weight: bolder;
 }
 
 .titulo1{
   color: #006666;
-  font-family: 'Open Sans', sans-serif;
   font-size: 8vh;
-  font-weight: bold;
   padding-left: 10%;
   text-align: left;
 }
@@ -101,7 +93,7 @@
 
 @media only screen and (max-width: 1101px) {
   .btn_whatsapp{
-    font-size: 65%;
+    font-size: 60%;
     padding: 10px 10px;
     margin-top: 0;
     width: 30%;
@@ -117,7 +109,7 @@
     margin-left: 0;
     padding-top: 0;
   }
-  .texto-genearl{
+  .texto-general{
     font-size: 90%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -128,6 +120,6 @@
     padding-top: 0;
   }
   .titulo-general{
-    font-size: 150%;
+    font-size: 130%;
   }
 }
