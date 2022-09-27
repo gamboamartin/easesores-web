@@ -19,6 +19,9 @@ import { Banner1VendeComponent } from './components/vende/banner1-vende/banner1-
 import { Banner2VendeComponent } from './components/vende/banner2-vende/banner2-vende.component';
 import { Banner3VendeComponent } from './components/vende/banner3-vende/banner3-vende.component';
 import { Banner4VendeComponent } from './components/vende/banner4-vende/banner4-vende.component';
+import { InmuebleComponent } from './components/inmueble/inmueble.component';
+import { Banner1InmuebleComponent } from './components/inmueble/banner1-inmueble/banner1-inmueble.component';
+import { Banner2InmuebleComponent } from './components/inmueble/banner2-inmueble/banner2-inmueble.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { Banner4VendeComponent } from './components/vende/banner4-vende/banner4-
     Banner1VendeComponent,
     Banner2VendeComponent,
     Banner3VendeComponent,
-    Banner4VendeComponent
+    Banner4VendeComponent,
+    InmuebleComponent,
+    Banner1InmuebleComponent,
+    Banner2InmuebleComponent
   ],
   imports: [
     BrowserModule,
