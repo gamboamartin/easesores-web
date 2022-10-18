@@ -26,6 +26,8 @@ import { Banner3InmuebleComponent } from './components/inmueble/banner3-inmueble
 import { RemodelaComponent } from './components/remodela/remodela.component';
 import { Banner1RemodelaComponent } from './components/remodela/banner1-remodela/banner1-remodela.component';
 import { Banner2RemodelaComponent } from './components/remodela/banner2-remodela/banner2-remodela.component';
+import { Banner3RemodelaComponent } from './components/remodela/banner3-remodela/banner3-remodela.component';
+import { Formulario1Component } from './components/remodela/banner3-remodela/formulario1/formulario1.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { Banner2RemodelaComponent } from './components/remodela/banner2-remodela
     Banner3InmuebleComponent,
     RemodelaComponent,
     Banner1RemodelaComponent,
-    Banner2RemodelaComponent
+    Banner2RemodelaComponent,
+    Banner3RemodelaComponent,
+    Formulario1Component
   ],
   imports: [
     BrowserModule,
