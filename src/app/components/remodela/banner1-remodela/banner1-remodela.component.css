@@ -1,5 +1,6 @@
 .div1{
-  margin-top: 4vh;
+  margin: 4vh 0;
+  padding: 0 7%;
 }
 
 .div2{
@@ -21,18 +22,17 @@
 .texto1{
   color: #606060;
   font-size: 4vh;
-  padding-left: 7%;
 }
 
 .titulo1{
   color: #006666;
   font-size: 8vh;
-  padding: 0 7%;
   text-align: left;
 }
 
 @media only screen and (max-width: 1101px) {
   .div2{
+    margin-top: 3vh;
     height: 37%;
   }
   .texto1 {
