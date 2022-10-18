@@ -1,3 +1,7 @@
+.div1-b1{
+  margin: 3.8vh 0;
+  padding: 0 7%;
+}
 
 .div1-b3{
   display: grid;
@@ -24,19 +28,20 @@
 
 .texto1{
   color: #606060;
-  font-size: 4.8vh;
-  padding-left: 10%;
+  font-size: 4vh;
 }
 
 .titulo1{
   color: #006666;
   font-size: 8vh;
-  padding-left: 10%;
   text-align: left;
 }
 
 @media only screen and (max-width: 1101px) {
 
+  .div1-b1{
+    margin: 0 0;
+  }
   .div-responsive{
     grid-auto-rows: 350px;
     grid-template-columns: 1fr;
@@ -46,8 +51,8 @@
     margin-left: 0;
     padding-top: 0;
   }
-  .titulo1 {
-    font-size: 150%;
+  .titulo1{
+    font-size: 130%;
     margin-left: 0;
     padding-top: 0;
   }

@@ -17,6 +17,11 @@
   position: absolute;
 }
 
+.div1-b3{
+  margin: 3.8vh 0;
+  padding: 0 7%;
+}
+
 .div2-b3{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -71,7 +76,6 @@
 .texto2{
   color: #606060;
   font-size: 8vh;
-  padding-left: 10%;
 }
 
 .texto-valoracion{
@@ -100,14 +104,16 @@
   .div-responsive{
     grid-auto-rows: 350px;
     grid-template-columns: 1fr;
-  }
+  }.p-venta-b3{
+     font-size: 2vh;
+   }
   .texto1{
     font-size: 90%;
     margin-top: 2%;
     margin-bottom: 2%;
   }
   .texto2{
-    font-size: 90%;
+    font-size: 110%;
     margin-left: 0;
   }
   .texto-valoracion{

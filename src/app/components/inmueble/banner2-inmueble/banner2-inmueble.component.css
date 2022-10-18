@@ -1,3 +1,7 @@
+.div1-b1{
+  margin: 3.8vh 0;
+  padding: 0 7%;
+}
 
 .div-b2{
   text-align: center;
@@ -21,32 +25,42 @@
 .texto1{
   color: #606060;
   font-size: 8vh;
-  padding-left: 10%;
 }
 
 .texto2{
   color: #606060;
   font-size: 4.8vh;
-  padding-left: 10%;
+}
+
+.texto3{
+  font-size: 3vh;
 }
 
 .titulo1{
   color: #006666;
   font-size: 8vh;
-  padding-left: 10%;
   text-align: left;
 }
 
 @media only screen and (max-width: 1101px) {
 
+  .div1-b1{
+    margin: 0 0;
+  }
+  .div2-b2{
+    height: 40vh;
+    width: 100%;
+  }
   .texto1{
-    font-size: 90%;
-    margin-left: 0;
-    padding-top: 0;
+    font-size: 110%;
+  }
+  .texto2{
+     font-size: 100%;
+   }
+  .texto3{
+    font-size: 2vh;
   }
   .titulo1 {
     font-size: 150%;
-    margin-left: 0;
-    padding-top: 0;
   }
 }
