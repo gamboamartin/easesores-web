@@ -1,0 +1,49 @@
+.div1{
+  margin-top: 4vh;
+}
+
+.div2{
+  margin-top: 6vh;
+  height: 123%;
+  overflow: hidden;
+}
+
+.div2-background{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-remodela{
+  height: 100%;
+  width: 100%;
+}
+
+.texto1{
+  color: #606060;
+  font-size: 4vh;
+  padding-left: 7%;
+}
+
+.titulo1{
+  color: #006666;
+  font-size: 8vh;
+  padding: 0 7%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1101px) {
+  .div2{
+    height: 37%;
+  }
+  .texto1 {
+    font-size: 90%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+
+  .titulo1 {
+    font-size: 130%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+}
