@@ -31,10 +31,9 @@
 }
 
 .input-formulario{
-  text-align-last: center;
   border: 0;
   border-radius: 50px;
-  font-size: 2.5vh;
+  font-size: 3vh;
   width: 100%;
   height: 6.4vh;
   margin-bottom: 3vh;
@@ -53,14 +52,44 @@
   border-radius: 50%;
 }
 
+.select-formulario{
+  border: 0;
+  border-radius: 10px;
+  font-size: 3vh;
+  float: none;
+  overflow: hidden;
+  height: 6.4vh;
+  width: inherit;
+  margin-left: 3vh;
+  margin-bottom: 3vh;
+  background-color: lightgray;
+  color: white;
+}
+
+.select-formulario:focus{
+  outline-color: #FF6633;
+}
+
+.textarea-formulario{
+  font-size: 2.5vh;
+  border-radius: 10px;
+  background-color: lightgrey;
+  border: 0;
+  width: 100%;
+  height: 25vh;
+}
+
+.textarea-formulario:focus{
+  outline-color: #FF6633;
+}
+
 .texto1{
-  color: gray;
+  line-height: 2.5;
   font-size: 3.5vh;
-  margin-left: 5%;
+  color: gray;
 }
 
 .texto2{
-  color: gray;
   font-size: 3vh;
 }
 
