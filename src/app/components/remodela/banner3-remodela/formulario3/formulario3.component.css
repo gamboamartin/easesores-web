@@ -13,7 +13,7 @@
 
 .calendario{
   border-radius: 50px;
-  height: 50vh;
+  height: 51vh;
   width: 50vh;
   margin: auto !important;
   background-color: white;
@@ -66,12 +66,9 @@ ol {
   border: 0;
   border-radius: 10px;
   font-size: 3vh;
-  float: none;
-  overflow: hidden;
   height: 6.4vh;
   width: 12vw;
   margin-left: 3vh;
-  margin-bottom: 3vh;
   background-color: lightgray;
   color: #606060;
 }
