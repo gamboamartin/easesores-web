@@ -31,7 +31,6 @@
 }
 
 .input-formulario{
-  text-align-last: center;
   border: 0;
   border-radius: 50px;
   font-size: 2.5vh;
@@ -51,6 +50,7 @@
   background-color: #006666;
   border: 0;
   border-radius: 50%;
+  display: inline;
 }
 
 .texto1{
@@ -70,6 +70,29 @@
 }
 
 @media only screen and (max-width: 1101px) {
+  .btn-siguiente{
+    font-size: 90%;
+    width: 50%;
+  }
+  .checkbox-formulario{
+    width: 2.5vh;
+    height: 2.5vh;
+  }
+  .div2{
+    width: 95%;
+  }
+  .input-formulario{
+    height: 5vh;
+  }
+  .numero{
+    font-size: 300%;
+  }
+  .texto1{
+    font-size: 110%;
+  }
+  .texto2{
+    font-size: 95%;
+  }
   .titulo1 {
     font-size: 130%;
     margin-left: 0;
