@@ -50,18 +50,16 @@
   background-color: #006666;
   border: 0;
   border-radius: 50%;
+  display: inline;
 }
 
 .select-formulario{
   border: 0;
   border-radius: 10px;
   font-size: 3vh;
-  float: none;
-  overflow: hidden;
   height: 6.4vh;
   width: inherit;
   margin-left: 3vh;
-  margin-bottom: 3vh;
   background-color: lightgray;
   color: white;
 }
@@ -99,6 +97,30 @@
 }
 
 @media only screen and (max-width: 1101px) {
+  .checkbox-formulario{
+    width: 2.5vh;
+    height: 2.5vh;
+    margin: auto 1vh;
+  }
+  .div2{
+    padding: 1vh 0;
+    width: 95%;
+  }
+  .numero{
+    font-size: 300%;
+  }
+  .select-formulario{
+    height: 4vh;
+    font-size: 110%;
+    width: auto;
+    margin-left: 1vh;
+  }
+  .texto1{
+    font-size: 110%;
+  }
+  .textarea-formulario{
+    height: 10vh;
+  }
   .titulo1 {
     font-size: 130%;
     margin-left: 0;
