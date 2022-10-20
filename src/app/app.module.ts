@@ -30,6 +30,7 @@ import { Banner3RemodelaComponent } from './components/remodela/banner3-remodela
 import { Formulario1Component } from './components/remodela/banner3-remodela/formulario1/formulario1.component';
 import { Formulario2Component } from './components/remodela/banner3-remodela/formulario2/formulario2.component';
 import { Formulario3Component } from './components/remodela/banner3-remodela/formulario3/formulario3.component';
+import { Banner4RemodelaComponent } from './components/remodela/banner4-remodela/banner4-remodela.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { Formulario3Component } from './components/remodela/banner3-remodela/for
     Banner3RemodelaComponent,
     Formulario1Component,
     Formulario2Component,
-    Formulario3Component
+    Formulario3Component,
+    Banner4RemodelaComponent
   ],
   imports: [
     BrowserModule,

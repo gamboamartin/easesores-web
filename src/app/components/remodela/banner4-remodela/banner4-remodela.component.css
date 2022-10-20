@@ -1,0 +1,67 @@
+.div1{
+  text-align: center;
+  padding: 4vh 0 0;
+}
+
+.div2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 40vh;
+}
+
+.div-general{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.div-texto{
+  position: absolute;
+  bottom: 4vh;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.filtro{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 40vh;
+  opacity: 45%;
+}
+
+.img-b4{
+  height: 100%;
+  width: 100%;
+  filter: contrast(170%);
+}
+
+.marca-agua{
+  background-color: black;
+  filter: opacity(30%);
+  height: 5.5vh;
+}
+
+.titulo1{
+  color: #006666;
+  font-size: 6vh;
+  margin-bottom: 6vh;
+}
+
+.texto1{
+  color: white;
+  font-size: 4vh;
+}
+
+@media only screen and (max-width: 1101px) {
+  .div-responsive{
+    grid-auto-rows: 12vh;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .titulo1 {
+    font-size: 130%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+}
