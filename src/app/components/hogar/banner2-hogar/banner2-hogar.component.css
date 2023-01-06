@@ -27,7 +27,7 @@
 }
 
 .div-middle-b2{
-  background-image: url("../../../../assets/comf.jpg");
+  background-image: url("../../../../assets/hogar/comf.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -74,7 +74,7 @@
     width: 90%;
   }
   .div-middle-b2{
-    background-image: url("../../../../assets/comfmobile.jpg");
+    background-image: url("../../../../assets/hogar/comfmobile.jpg");
   }
   .section-2{
     padding-top: 2%;

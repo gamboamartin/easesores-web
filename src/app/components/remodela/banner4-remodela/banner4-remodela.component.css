@@ -66,13 +66,13 @@
     bottom: 4vh;
   }
   .filtro{
-    height: 90vh;
+    height: 100%;
   }
   .marca-agua{
     height: 4vh;
   }
   .texto1{
-    font-size: 140%;
+    font-size: 120%;
   }
   .titulo1 {
     font-size: 130%;
