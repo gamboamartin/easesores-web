@@ -31,8 +31,11 @@
 }
 
 @media only screen and (max-width: 1101px) {
+  .div1{
+    margin: 0;
+  }
   .div2{
-    margin-top: 3vh;
+    margin-top: 0;
     height: 37%;
   }
   .texto1 {
