@@ -18,8 +18,8 @@
 .div2-b2{
   border-radius: 50px;
   background-color: #606060;
-  height: 70vh;
-  width: 80%;
+  height: 75vh;
+  width: 100%;
 }
 
 .img-icono{
@@ -39,7 +39,8 @@
 
 .texto2{
   color: #606060;
-  font-size: 4.8vh;
+  font-size: 3.5vh;
+  line-height: 1.3;
 }
 
 .texto3{
@@ -78,7 +79,7 @@
     font-size: 110%;
   }
   .texto2{
-     font-size: 100%;
+     font-size: 80%;
    }
   .texto3{
     font-size: 1vh;
