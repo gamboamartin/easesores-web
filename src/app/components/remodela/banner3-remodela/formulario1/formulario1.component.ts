@@ -6,14 +6,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Formulario1Component implements OnInit {
   nextForm(){
+    // @ts-ignore
     let form2 = document.getElementById("form2");
     let form3 = document.getElementById("form3");
+
     // @ts-ignore
-    if (form2.style.display != "block"){
+    let nombre = document.getElementById("nombre").value;
+    // @ts-ignore
+    let ap = document.getElementById("ap").value;
+    // @ts-ignore
+    let tel = document.getElementById("tel").value;
+    // @ts-ignore
+    let email = document.getElementById("email").value;
+    let chbox = document.getElementById("chbox");
+    let chbox_check = false;
+    // @ts-ignore
+    if (chbox.checked){
+      chbox_check = true;
+    }
+
+    if (nombre != '' && ap != '' && tel != '' && email != '' && chbox_check) {
       // @ts-ignore
-      form2.style.display = "block"
+      form2.style.display = "block";
       // @ts-ignore
-      form3.style.display = "block"
+      form3.style.display = "block";
     }
   }
 
