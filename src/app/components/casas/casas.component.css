@@ -6,22 +6,42 @@
   position: absolute;
 }
 
-.div-general-b3{
+.div-c1{
+  height: 80vh;
+}
+
+.div-c2{
+  height: 55vh;
+  width: 32%;
+}
+
+.div-general{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.div1-b3{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-auto-rows: 90vh;
+  display: inline-block;
 }
 
 .div2-b3{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 55vh;
+  padding-bottom: 8vh;
+}
+
+.div-info{
+  border-left: 3px solid gray;
+  border-bottom: 3px solid gray;
+  border-right: 3px solid gray;
+}
+
+.div-space{
+  width: 2%;
+  display: inline-block;
+}
+
+.div-subinfo{
+  display: inline-block;
+  font-size: 2.5vh;
+  margin-right: 2%;
+  text-align: right;
 }
 
 .div-venta-b3{
@@ -37,8 +57,9 @@
   width: 100%;
 }
 
-.right2{
-  right: 2%;
+.img-info{
+  width: 7vh;
+  display: inline;
 }
 
 .p-venta-b3{
@@ -49,6 +70,10 @@
   width: 70%;
 }
 
+.right2{
+  right: 2%;
+}
+
 .texto-valoracion{
   font-size: 1.3vh;
   color: black;
@@ -57,19 +82,51 @@
   top: 45%;
 }
 
+.width-22{
+  width: 22%;
+}
+
+.width-25{
+  width: 25%;
+}
+
+.width-32{
+  width: 32%;
+}
+
+.width-66{
+  width: 66%;
+}
+
 @media only screen and (max-width: 1101px){
   .corazon-b3 {
     right: 30%;
   }
-  .div-responsive{
-    grid-auto-rows: 350px;
-    grid-template-columns: 1fr;
+  .div2-b3{
+    padding: unset;
   }
-  .right2{
-    right: unset;
+  .div-general{
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .div-info{
+    display: block;
+  }
+  .div-subinfo{
+    font-size: 2vh;
+  }
+  .div-space{
+    display: none;
+  }
+  .img-info{
+    width: 40%;
   }
   .p-venta-b3{
     font-size: 2vh;
+  }
+  .right2{
+    right: unset;
   }
   .texto-valoracion{
     font-size: 1vh;

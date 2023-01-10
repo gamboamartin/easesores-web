@@ -25,20 +25,12 @@
 
 .div2-b3{
   padding-bottom: 8vh;
-
 }
 
 .div-info{
   border-left: 3px solid gray;
   border-bottom: 3px solid gray;
   border-right: 3px solid gray;
-}
-
-.div-subinfo{
-  display: inline-block;
-  font-size: 2.5vh;
-  margin-right: 2%;
-  text-align: right;
 }
 
 .div-general-b3{
@@ -53,6 +45,13 @@
 .div-space{
   width: 2%;
   display: inline-block;
+}
+
+.div-subinfo{
+  display: inline-block;
+  font-size: 2.5vh;
+  margin-right: 2%;
+  text-align: right;
 }
 
 .div-venta-b3{
@@ -117,12 +116,12 @@
   font-size: 8.4vh;
 }
 
-.width-25{
-  width: 25%;
-}
-
 .width-22{
   width: 22%;
+}
+
+.width-25{
+  width: 25%;
 }
 
 @media only screen and (max-width: 1101px) {
@@ -143,15 +142,11 @@
   .div-info{
     display: block;
   }
-  .div-subinfo{
-    font-size: 2vh;
-  }
   .div-space{
     display: none;
   }
-  .div-responsive{
-    grid-auto-rows: 350px;
-    grid-template-columns: 1fr;
+  .div-subinfo{
+    font-size: 2vh;
   }
   .img-info{
     width: 40%;
