@@ -3,22 +3,20 @@
   padding: 0 7%;
 }
 
-.div1-b3{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-auto-rows: 90vh;
+.div-c1{
+  height: 80vh;
 }
 
-.div2-b3{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 55vh;
+.div-c2{
+  height: 55vh;
+  width: 33.33%;
 }
 
-.div-general-b3{
+.div-general{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: inline-block;
 }
 
 .img-b5{
@@ -37,10 +35,22 @@
   text-align: left;
 }
 
+.width-33{
+  width: 33%;
+}
+
+.width-67{
+  width: 67%;
+}
+
 @media only screen and (max-width: 1101px) {
 
   .div1-b1{
     margin: 0 0;
+  }
+  .div-general{
+    height: 40vh;
+    width: 100%;
   }
   .div-responsive{
     grid-auto-rows: 350px;
