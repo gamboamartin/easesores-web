@@ -30,6 +30,11 @@ export class Formulario1Component implements OnInit {
       form2.style.display = "block";
       // @ts-ignore
       form3.style.display = "block";
+    } else {
+      // @ts-ignore
+      form2.style.display = "none";
+      // @ts-ignore
+      form3.style.display = "none";
     }
   }
 
