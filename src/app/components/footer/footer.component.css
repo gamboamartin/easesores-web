@@ -11,9 +11,8 @@
 }
 
 .div3-b5 {
-  padding: 3% 5%;
-  text-align: left;
-  width: 100%;
+  padding: 3%;
+  text-align: center;
 }
 
 .font-70{
@@ -74,14 +73,9 @@
 
 @media only screen and (max-width: 1101px){
   .col-footer-12 {
-    flex: 0 0 auto;
     padding-top: 7%;
     width: 100%;
     margin: unset;
-  }
-  .col-footer-6 {
-    flex: 0 0 auto;
-    width: 50%;
   }
   .font-70{
     font-size: 1.2vh;
