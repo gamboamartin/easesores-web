@@ -7,11 +7,11 @@
   text-align: left;
   vertical-align: middle;
   margin: 10% 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .div1-b2{
+  display: inline-block;
+  width: 33.33%;
   padding: 0 0 0 4vw;
 }
 
@@ -20,6 +20,10 @@
   background-color: #606060;
   height: 75vh;
   width: 100%;
+}
+
+.div-info{
+  padding: 0 7%;
 }
 
 .img-icono{
@@ -62,18 +66,22 @@
   .div2-b2{
     height: 40vh;
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
   }
   .div1-b2{
     padding: 0;
+    text-align: center;
+  }
+  .div-info{
+    padding-left: 5%;
   }
   .img-icono{
-    width: 12%;
-    margin: 0 7px;
+    width: 30%;
+    margin: auto;
+    display: block;
   }
   .p-b2{
-    font-size: 60%;
-    margin: 0 0 0 8vw;
+    font-size: 80%;
+    margin: auto;
   }
   .texto1{
     font-size: 110%;
@@ -82,7 +90,7 @@
      font-size: 80%;
    }
   .texto3{
-    font-size: 1vh;
+    font-size: 65%;
   }
   .titulo1 {
     font-size: 150%;
