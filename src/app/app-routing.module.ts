@@ -20,7 +20,7 @@ const routes: Routes = [
     component: VendeComponent
   },
   {
-    path: 'inmueble',
+    path: 'compra/inmueble',
     component: InmuebleComponent
   },
   {
