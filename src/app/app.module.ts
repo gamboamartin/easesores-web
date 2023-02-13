@@ -31,6 +31,10 @@ import { Formulario1Component } from './components/remodela/banner3-remodela/for
 import { Formulario2Component } from './components/remodela/banner3-remodela/formulario2/formulario2.component';
 import { Formulario3Component } from './components/remodela/banner3-remodela/formulario3/formulario3.component';
 import { Banner4RemodelaComponent } from './components/remodela/banner4-remodela/banner4-remodela.component';
+import { FinanciamientoComponent } from './components/financiamiento/financiamiento.component';
+import { Banner1FinanciamientoComponent } from './components/financiamiento/banner1-financiamiento/banner1-financiamiento.component';
+import { Banner2FinanciamientoComponent } from './components/financiamiento/banner2-financiamiento/banner2-financiamiento.component';
+import { Banner3FinanciamientoComponent } from './components/financiamiento/banner3-financiamiento/banner3-financiamiento.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +66,11 @@ import { Banner4RemodelaComponent } from './components/remodela/banner4-remodela
     Formulario1Component,
     Formulario2Component,
     Formulario3Component,
-    Banner4RemodelaComponent
+    Banner4RemodelaComponent,
+    FinanciamientoComponent,
+    Banner1FinanciamientoComponent,
+    Banner2FinanciamientoComponent,
+    Banner3FinanciamientoComponent
   ],
   imports: [
     BrowserModule,

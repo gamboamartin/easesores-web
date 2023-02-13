@@ -1,0 +1,79 @@
+.div1{
+  margin: 4vh 0;
+  padding: 0 7%;
+}
+
+.div2{
+  margin-top: 6vh;
+  height: 123%;
+  overflow: hidden;
+}
+
+.div2-background{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-remodela{
+  height: 100%;
+  width: 100%;
+}
+
+.green-section{
+  background-color: #006666;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.texto1{
+  color: #606060;
+  font-size: 4vh;
+}
+
+.texto2{
+  color: white;
+  display: block;
+  font-size: 4.8vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.titulo1{
+  color: #006666;
+  font-size: 8vh;
+  text-align: left;
+}
+
+.titulo2{
+  color: white;
+  font-size: 8.4vh;
+}
+
+@media only screen and (max-width: 1101px) {
+  .div1{
+    margin: 0;
+  }
+  .div2{
+    margin-top: 0;
+    height: 37%;
+  }
+  .texto1 {
+    font-size: 90%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .texto2{
+    font-size: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .titulo1 {
+    font-size: 130%;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .titulo2{
+    font-size: 130%;
+  }
+}

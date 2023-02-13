@@ -5,6 +5,7 @@ import {CompraComponent} from "./components/compra/compra.component";
 import {VendeComponent} from "./components/vende/vende.component";
 import {InmuebleComponent} from "./components/inmueble/inmueble.component";
 import {RemodelaComponent} from "./components/remodela/remodela.component";
+import {FinanciamientoComponent} from "./components/financiamiento/financiamiento.component";
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'remodela',
     component: RemodelaComponent
+  },
+  {
+    path: 'financiamiento',
+    component: FinanciamientoComponent
   }
 ];
 

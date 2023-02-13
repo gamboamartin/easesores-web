@@ -1,0 +1,27 @@
+.div1{
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.div2{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  margin: 5vh 0;
+}
+
+.div-item{
+  text-align: center;
+  font-size: 2vh;
+  margin: 5% 0;
+}
+
+.titulo1{
+  color: #2f2f2f;
+  font-size: 3.4vh;
+}
+
+@media only screen and (max-width: 1101px) {
+  .titulo1{
+    font-size: 160%;
+  }
+}
