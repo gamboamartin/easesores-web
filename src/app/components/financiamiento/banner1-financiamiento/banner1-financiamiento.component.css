@@ -12,6 +12,9 @@
 .div2-background{
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("../../../../assets/financiamiento/joven-pareja-feliz-consultando-gerente-banco-reunion-oficina.jpg");
+  background-position: center;
+  height: 110vh;
 }
 
 .img-remodela{
@@ -57,6 +60,13 @@
   .div2{
     margin-top: 0;
     height: 37%;
+  }
+  .div2-background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../../assets/financiamiento/joven-pareja-feliz-consultando-gerente-banco-reunion-oficina.jpg");
+    background-position: center;
+    height: 30vh;
   }
   .texto1 {
     font-size: 90%;

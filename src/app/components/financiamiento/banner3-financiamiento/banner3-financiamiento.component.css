@@ -4,15 +4,38 @@
 }
 
 .div2{
-  display: grid;
-  grid-template-columns: auto auto auto auto auto ;
   margin: 5vh 0;
 }
 
-.div-item{
-  text-align: center;
-  font-size: 2vh;
-  margin: 5% 0;
+.div-banco-general{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 14vh;
+  width: 90%;
+  margin: auto;
+}
+
+.div-banco1{
+  background-image: url("../../../../assets/financiamiento/bancos1.png");
+}
+
+.div-banco2{
+  background-image: url("../../../../assets/financiamiento/bancos3.png");
+}
+
+.div-banco3{
+  background-image: url("../../../../assets/financiamiento/bancos4.png");
+}
+
+.div-banco4{
+  background-image: url("../../../../assets/financiamiento/bancos2.png");
+}
+
+.div-banco5{
+  background-image: url("../../../../assets/financiamiento/bancos7.png");
+  width: 88% !important;
+  height: 12vh !important;
 }
 
 .titulo1{
@@ -21,7 +44,15 @@
 }
 
 @media only screen and (max-width: 1101px) {
+  .div-banco-general{
+    height: 4vh;
+    width: 90%;
+  }
+  .div-banco5{
+    width: 88% !important;
+    height: 3vh !important;
+  }
   .titulo1{
-    font-size: 160%;
+    font-size: 142%;
   }
 }
