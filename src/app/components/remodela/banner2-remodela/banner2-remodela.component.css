@@ -17,15 +17,21 @@
   grid-auto-rows: 55vh;
 }
 
-.img-b2{
-  height: 100%;
-  width: 100%;
-}
-
-.div-general-b2{
+.div-general{
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+}
+
+.div-img1{
+  background-image: url("../../../../assets/remodela/hands-of-professional-plumber-fixing-pipes-plumbing-repair-service.jpg") ;
+}
+
+.div-img2{
+  background-image: url("../../../../assets/remodela/male-carpenter-cuts-wood-with-an-electric-jigsaw-working-with-tree.jpg") ;
+}
+
+.div-img3{
+  background-image: url("../../../../assets/remodela/male-tiler-using-trowel-laying-marble-tile-with-cement-in-bathroom-housing-development-interior-improvement-renovation.jpg") ;
 }
 
 .texto1{
@@ -48,9 +54,11 @@
   .div2{
     margin: 2vh 0;
   }
-  .div-responsive{
-    grid-auto-rows: 12vh;
-    grid-template-columns: repeat(3, 1fr);
+  .div3-b3{
+    grid-auto-rows: 15vh;
+  }
+  .div-general{
+    height: 15vh;
   }
   .texto1{
     padding: 0 2%;

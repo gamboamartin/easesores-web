@@ -11,6 +11,9 @@
 .div2-background{
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("../../../../assets/vende/background_vende.jpg");
+  background-position: center;
+  height: 110vh;
 }
 
 .img-vende{
@@ -37,6 +40,9 @@
   }
   .div2{
     height: 37%;
+  }
+  .div2-background{
+    height: 30vh;
   }
   .texto1{
     font-size: 90%;
