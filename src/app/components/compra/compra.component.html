@@ -1,11 +1,12 @@
 
-  <div class="w-100 row div1">
+  <div class="w-100 row div1" id="div1">
     <div class="col-9">
       <h1 class="titulo1 Montserrat-ExtraBold">Encuentra propiedades en <br class="br-hidden">Jalisco y Área Metropolitana</h1>
       <span class="texto1 Montserrat-Bold">7615 Resultados encontrados</span>
     </div>
-    <div class="col-2">
-      <input type="search" class="search-box">
+
+    <div class="col-2 div-search">
+      <input type="search" id="searchbox" class="search-box" (focus)="focusAnimation()" (blur)="blurAnimation()">
     </div>
   </div>
 
